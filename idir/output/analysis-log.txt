@@ -1,0 +1,222 @@
+cmdline: command line: cov-analyze --dir idir --webapp-security --all --distrust-all --trial --webapp-security-trial 
+cmdline: parsed cmdline: [
+cmdline:   { name: "dir", args: [ "idir" ] },
+cmdline:   { name: "webapp-security" },
+cmdline:   { name: "all" },
+cmdline:   { name: "distrust-all" },
+cmdline:   { name: "trial" },
+cmdline:   { name: "webapp-security-trial" },
+cmdline: ]
+startup: am_pid=8762
+startup: detected platform: Darwin 17.7.0 x86_64
+startup: target platform: macosx
+startup: Detected 8 logical cpus
+startup: Detected 4 cpu cores
+startup: host name: Bryons-MacBook-Pro.local
+startup: user name: bryongloden
+startup: Analysis version: 2019.03 (2c0f9c8cf4 p-pacific1-push-35439.872)
+startup: temp directory: /var/folders/n_/4fyq5k4150d_sflmp2711x_r0000gn/T/cov-bryongloden/e4ac75d3adbdd12a9e73d58ac6ed909f
+startup: enable_constraint_fpp=0
+startup: current time: 2019-Apr-25 18:00:43
+startup: Detected amount of memory: 16777216kb
+startup: Limiting memory to 15099494kb
+was: Web-app security infrastructure enabled by (Python 2) BUDA_DIRECTIVES_TYPE_INFERENCE_CHECKER
+was: Web-app security infrastructure enabled by (Python 2) __PATH_MANIPULATION_BUDA
+was: Web-app security infrastructure enabled by (Python 2) __NOSQL_QUERY_INJECTION_BUDA
+was: Web-app security infrastructure enabled by (Python 2) __OPEN_REDIRECT_BUDA
+was: Web-app security infrastructure enabled by (Python 2) __SQLI_BUDA_DYNAMICS
+was: Web-app security infrastructure enabled by (Python 2) __CSRF_BUDA
+was: Web-app security infrastructure enabled by (Python 2) __SCRIPT_CODE_INJECTION_BUDA
+was: Web-app security infrastructure enabled by (Python 2) __XSS_BUDA
+was: Web-app security infrastructure enabled by (Python 2) __HARDCODED_CREDENTIALS_BUDA_DYNAMICS
+was: Web-app security infrastructure enabled by (Python 2) __XML_EXTERNAL_ENTITY_BUDA_DYNAMICS
+was: Web-app security infrastructure enabled by (Python 2) __OS_CMD_INJECTION_BUDA
+was: Web-app security infrastructure enabled by (Python 2) __UNSAFE_DESERIALIZATION_BUDA
+was: Web-app security infrastructure enabled by (Python 2) __SENSITIVE_DATA_LEAK_BUDA_DYNAMICS
+was: Web-app security infrastructure enabled by (Python 2) __MISSING_AUTHZ_BUDA_STATS
+was: Web-app security infrastructure enabled by (Python 2) __MISSING_AUTHZ_BUDA
+was: Web-app security infrastructure enabled by (Text) CONFIG.MISSING_CUSTOM_ERROR_PAGE
+was: Web-app security infrastructure enabled by (Text) CONFIG.UNSAFE_SESSION_TIMEOUT
+was: Web-app security infrastructure enabled by (Text) CONFIG.SPRING_SECURITY_SESSION_FIXATION
+was: Web-app security infrastructure enabled by (Text) CONFIG.SPRING_SECURITY_REMEMBER_ME_HARDCODED_KEY
+was: Web-app security infrastructure enabled by (Text) CONFIG.STRUTS2_CONFIG_BROWSER_PLUGIN
+was: Web-app security infrastructure enabled by (Text) CONFIG.HANA_XS_PREVENT_XSRF_DISABLED
+was: Web-app security infrastructure enabled by (Text) CONFIG.SYMFONY_CSRF_PROTECTION_DISABLED
+was: Web-app security infrastructure enabled by (Text) CONFIG.COOKIES_MISSING_HTTPONLY
+was: Web-app security infrastructure enabled by (Text) CONFIG.DEAD_AUTHORIZATION_RULE
+was: Web-app security infrastructure enabled by (Text) CONFIG.ENABLED_DEBUG_MODE
+was: Web-app security infrastructure enabled by (Text) CONFIG.ENABLED_TRACE_MODE
+was: Web-app security infrastructure enabled by (Text) CONFIG.ASP_VIEWSTATE_MAC
+was: Web-app security infrastructure enabled by (Text) CONFIG.ASPNET_VERSION_HEADER
+was: Web-app security infrastructure enabled by (Text) CONFIG.DUPLICATE_SERVLET_DEFINITION
+was: Web-app security infrastructure enabled by (Text) CONFIG.DWR_DEBUG_MODE
+was: Web-app security infrastructure enabled by (Text) CONFIG.JAVAEE_MISSING_HTTPONLY
+was: Web-app security infrastructure enabled by (Text) CONFIG.MISSING_GLOBAL_EXCEPTION_HANDLER
+was: Web-app security infrastructure enabled by (Text) CONFIG.MISSING_JSF2_SECURITY_CONSTRAINT
+was: Web-app security infrastructure enabled by (Text) CONFIG.SPRING_SECURITY_DEBUG_MODE
+was: Web-app security infrastructure enabled by (Text) CONFIG.SPRING_SECURITY_DISABLE_AUTH_TAGS
+was: Web-app security infrastructure enabled by (Text) CONFIG.SPRING_SECURITY_HARDCODED_CREDENTIALS
+was: Web-app security infrastructure enabled by (Text) CONFIG.STRUTS2_DYNAMIC_METHOD_INVOCATION
+was: Web-app security infrastructure enabled by (Text) CONFIG.STRUTS2_ENABLED_DEV_MODE
+was: Web-app security infrastructure enabled by (Text) CONFIG.CONNECTION_STRING_PASSWORD
+was: Web-app security infrastructure enabled by (Text) CONFIG.HTTP_VERB_TAMPERING
+was: Web-app security infrastructure enabled by (Python 2) __HARDCODED_CREDENTIALS_URL
+was: Web-app security infrastructure enabled by (Python 2) HARDCODED_CREDENTIALS
+was: Web-app security infrastructure enabled by (Python 2) XSS
+was: Web-app security infrastructure enabled by (Python 2) SQLI
+was: Web-app security infrastructure enabled by (Python 2) PATH_MANIPULATION
+was: Web-app security infrastructure enabled by (Python 2) OPEN_REDIRECT
+was: Web-app security infrastructure enabled by (Python 2) OS_CMD_INJECTION
+was: Web-app security infrastructure enabled by (Python 2) CSRF
+was: Web-app security infrastructure enabled by (Python 2) NOSQL_QUERY_INJECTION
+was: Web-app security infrastructure enabled by (Python 2) SCRIPT_CODE_INJECTION
+was: Web-app security infrastructure enabled by (Python 2) SENSITIVE_DATA_LEAK
+was: Web-app security infrastructure enabled by (Python 2) MISSING_AUTHZ
+was: Web-app security infrastructure enabled by (Python 2) UNSAFE_DESERIALIZATION
+was: Web-app security infrastructure enabled by (Python 2) XML_EXTERNAL_ENTITY
+wlink: Identifying web applications
+wlink: Linking web-app archive bytecode
+emitdb: callgraph.cpp:2982 11111111
+emitdb: callgraph.cpp:3012 11000011
+emitdb: callgraph.cpp:3032 11000011
+directives: ===== User directives:
+directives: === Language: cpp
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: cs
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: fortran
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: java
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: javascript
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: objc
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: php
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: python2
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: python3
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: ruby
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: scala
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: swift
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: text-files
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: typescript
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: vb
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+rta: Not running RTA because it doesn't apply to current languages
+emitdb: callgraph.cpp:3042 11000000
+dyncg: N/A or no data
+directives: Optimizing dataflow configuration
+directives: Optimizing dataflow configuration
+general: Starting analysis
+dm-access-lib: AM listening for DM at 127.0.0.1:57500
+dm-access-lib: AM starting DM with command line: /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-dm --AM-port 57500 --log-file /Users/bryongloden/Workspace/gruyere-code/idir/output/distributor.log -j 8 --AW-timeout 36000 /Applications/cov-analysis-macosx-2019.03/bin/cov-analyze --worker --message-size-limit 104857600 --worker-timings-file /Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log
+dm-access-lib: DM started: dm_pid=8765
+dm-access-lib: AM got connection from DM: (local) 127.0.0.1:57500 - 127.0.0.1:57501 (remote)
+makeWUP: ENABLE_ONLY0
+makeWUP: stat3
+makeWUP: stat2
+makeWUP: stat1
+makeWUP: stat0
+makeWUP: stat4
+makeWUP: gen3
+makeWUP: gen2
+makeWUP: gen1
+makeWUP: gen0
+makeWUP: gen4
+makeWUP: PER_TU0
+makeWUP: PER_TU1
+makeWUP: PER_TU2
+makeWUP: PER_TU3
+makeWUP: PER_TU4
+makeWUP: PER_TU5
+makeWUP: PER_TU6
+makeWUP: PER_TU7
+makeWUP: PER_TU8
+makeWUP: PER_TU9
+makeWUP: PER_TU10
+makeWUP: PER_TU11
+makeWUP: PER_TU12
+makeWUP: PER_TU13
+makeWUP: PER_TU14
+makeWUP: PER_TU15
+makeWUP: PER_TU16
+makeWUP: PER_TU17
+makeWUP: PER_TU18
+makeWUP: PER_TU19
+makeWUP: PER_TU20
+makeWUP: PER_TU21
+makeWUP: PER_TU22
+makeWUP: PER_TU23
+makeWUP: Setup_dataflow_callgraphs_0
+makeWUP: BUDA_callgraph_3
+makeWUP: BUDA_callgraph_2
+makeWUP: BUDA_callgraph_1
+makeWUP: BUDA_callgraph_0
+makeWUP: BUDA_callgraph_4
+makeWUP: Aggregate_BUDA_callgraph_0
+makeWUP: Dynamic_BUDA_directives_type_inference_3
+makeWUP: Dynamic_BUDA_directives_type_inference_2
+makeWUP: Dynamic_BUDA_directives_type_inference_1
+makeWUP: Dynamic_BUDA_directives_type_inference_0
+makeWUP: Dynamic_BUDA_directives_type_inference_4
+makeWUP: Setup_dynamic_BUDA_directives_checkers_0
+makeWUP: Dynamic_BUDA_checkers1_3
+makeWUP: Dynamic_BUDA_checkers2_3
+makeWUP: Dynamic_BUDA_checkers3_3
+makeWUP: Dynamic_BUDA_checkers1_2
+makeWUP: Dynamic_BUDA_checkers3_2
+makeWUP: Dynamic_BUDA_checkers2_2
+makeWUP: Dynamic_BUDA_checkers2_1
+makeWUP: Dynamic_BUDA_checkers1_1
+makeWUP: Dynamic_BUDA_checkers3_1
+makeWUP: Dynamic_BUDA_checkers1_0
+makeWUP: Dynamic_BUDA_checkers3_0
+makeWUP: Dynamic_BUDA_checkers2_0
+makeWUP: Dynamic_BUDA_checkers1_4
+makeWUP: Dynamic_BUDA_checkers3_4
+stats: AUTHZ_STAT: inferred 0 check requirements
+stats: AUTHZ_STAT: total checks : 0 / 0
+makeWUP: Dynamic_BUDA_checkers2_4
+makeWUP: Setup_post_dynamic_BUDA_directives_checkers_0
+makeWUP: Post_dynamic_BUDA_directives_checkers_3
+makeWUP: Post_dynamic_BUDA_directives_checkers_2
+makeWUP: Post_dynamic_BUDA_directives_checkers_1
+makeWUP: Post_dynamic_BUDA_directives_checkers_0
+makeWUP: Post_dynamic_BUDA_directives_checkers_4
+summary: Analysis summary report:
+summary: ------------------------
+summary: Files analyzed           : 4
+summary: Functions analyzed       : 4
+summary: Paths analyzed           : 4
+summary: Time taken by analysis   : 00:00:04
+summary: Defect occurrences found : 0
+summary: Number of functions: 4
+summary: out_of_memory count: 0
+summary: paths_exceeded count: 0
+summary: recoverable failures: 0
+mem: AM peak mem bytes: 0
+assert: suppressed asserts: workers=0, master=0
+failures: recoverable failures: workers=0, master=0

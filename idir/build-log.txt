@@ -1,0 +1,245 @@
+2019-04-25T21:59:38.728386Z|cov-build|8700|info|> cov-build 2019.03 (build 2c0f9c8cf4 p-pacific1-push-35439.872)
+2019-04-25T21:59:38.728642Z|cov-build|8700|info|> Coverity Build Capture (64-bit) version 2019.03 on Darwin 17.7.0 x86_64
+2019-04-25T21:59:38.728642Z|cov-build|8700|info|> Internal version numbers: 2c0f9c8cf4 p-pacific1-push-35439.872
+2019-04-25T21:59:38.728642Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.728688Z|cov-build|8700|info|> Dumping from hostname : Bryons-MacBook-Pro.local
+2019-04-25T21:59:38.728688Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.728704Z|cov-build|8700|info|> Platform info:
+2019-04-25T21:59:38.728704Z|cov-build|8700|info|> Sysname = Darwin
+2019-04-25T21:59:38.728704Z|cov-build|8700|info|> Release = 17.7.0
+2019-04-25T21:59:38.728704Z|cov-build|8700|info|> Machine = x86_64
+2019-04-25T21:59:38.728704Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.728704Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.728738Z|cov-build|8700|info|> cov-build command: cov-build -c idir/conf.xml --dir idir --no-command -fs-capture-search ./ 
+2019-04-25T21:59:38.728748Z|cov-build|8700|info|> cov-build expanded command: cov-build -c idir/conf.xml --dir idir --no-command -fs-capture-search ./ 
+2019-04-25T21:59:38.736920Z|cov-build|8700|info|> build command: 
+2019-04-25T21:59:38.736949Z|cov-build|8700|info|> thunk command: /var/folders/n_/4fyq5k4150d_sflmp2711x_r0000gn/T/cov-bryongloden/88d096b3df37f75f401c98590be16123/sh /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-thunk.sh
+2019-04-25T21:59:38.736949Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.736971Z|cov-build|8700|info|> Set UseSharedCompilation to false.
+2019-04-25T21:59:38.736990Z|cov-build|8700|info|> Set COVERITY_BIN to /Applications/cov-analysis-macosx-2019.03/bin
+2019-04-25T21:59:38.737379Z|cov-build|8700|info|> Set COVERITY_SITE_CC to 
+2019-04-25T21:59:38.737396Z|cov-build|8700|info|> Set COVERITY_SITE_CC_CAPTURE_DESCENDANTS to 
+2019-04-25T21:59:38.737413Z|cov-build|8700|info|> Set COVERITY_TEMP to /var/folders/n_/4fyq5k4150d_sflmp2711x_r0000gn/T/cov-bryongloden/88d096b3df37f75f401c98590be16123
+2019-04-25T21:59:38.737434Z|cov-build|8700|info|> Set COVERITY_COMMON_TEMP to /var/folders/n_/4fyq5k4150d_sflmp2711x_r0000gn/T
+2019-04-25T21:59:38.737450Z|cov-build|8700|info|> Set COVERITY_IDIR to /Users/bryongloden/Workspace/gruyere-code/idir
+2019-04-25T21:59:38.737485Z|cov-build|8700|info|> Set COVERITY_OUTPUT to /Users/bryongloden/Workspace/gruyere-code/idir/build-log.txt
+2019-04-25T21:59:38.737495Z|cov-build|8700|info|> Set COVERITY_LOG to /Users/bryongloden/Workspace/gruyere-code/idir/build-log.txt
+2019-04-25T21:59:38.737508Z|cov-build|8700|info|> Set COVERITY_OUTPUT_ENCODING to UTF-8
+2019-04-25T21:59:38.737517Z|cov-build|8700|info|> Set COVERITY_SYSTEM_ENCODING to UTF-8
+2019-04-25T21:59:38.737528Z|cov-build|8700|info|> Set COVERITY_EMIT to /Users/bryongloden/Workspace/gruyere-code/idir/emit
+2019-04-25T21:59:38.737557Z|cov-build|8700|info|> Set COVERITY_IS_COMPILER to 0
+2019-04-25T21:59:38.737567Z|cov-build|8700|info|> Set COVERITY_TOP_PROCESS to 0
+2019-04-25T21:59:38.737575Z|cov-build|8700|info|> Set COVERITY_IS_COMPILER_DESCENDANT to 0
+2019-04-25T21:59:38.737583Z|cov-build|8700|info|> Set COVERITY_DISENGAGE_EXES to "qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64"
+2019-04-25T21:59:38.737605Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.737605Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.737605Z|cov-build|8700|info|> Dumping configuration:
+2019-04-25T21:59:38.737605Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.737629Z|cov-build|8700|info|> User/default configuration:
+2019-04-25T21:59:38.737629Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.737643Z|cov-build|8700|info|> Configuration read from: command-line
+2019-04-25T21:59:38.737643Z|cov-build|8700|info|> Node: coverity
+2019-04-25T21:59:38.737643Z|cov-build|8700|info|>   Node: config
+2019-04-25T21:59:38.737643Z|cov-build|8700|info|>     Node: include Value: /Users/bryongloden/Workspace/gruyere-code/idir/conf.xml
+2019-04-25T21:59:38.737643Z|cov-build|8700|info|>   Node: config
+2019-04-25T21:59:38.737643Z|cov-build|8700|info|>     Node: prevent
+2019-04-25T21:59:38.737643Z|cov-build|8700|info|>       Node: dir Value: /Users/bryongloden/Workspace/gruyere-code/idir
+2019-04-25T21:59:38.737643Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.737707Z|cov-build|8700|info|> Configuration read from: /Users/bryongloden/Workspace/gruyere-code/idir/conf.xml
+2019-04-25T21:59:38.737707Z|cov-build|8700|info|> Node: coverity
+2019-04-25T21:59:38.737707Z|cov-build|8700|info|>   Node: cit_version Value: 1
+2019-04-25T21:59:38.737707Z|cov-build|8700|info|>   Node: config
+2019-04-25T21:59:38.737707Z|cov-build|8700|info|>     Node: include Value: /Users/bryongloden/Workspace/gruyere-code/idir/template-python-config-0/coverity_config.xml
+2019-04-25T21:59:38.737707Z|cov-build|8700|info|>     Node: include Value: /Users/bryongloden/Workspace/gruyere-code/idir/template-capture-config-files-config-0/coverity_config.xml
+2019-04-25T21:59:38.737707Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|> Configuration read from: /Users/bryongloden/Workspace/gruyere-code/idir/template-python-config-0/coverity_config.xml
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|> Node: coverity
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>   Node: cit_version Value: 1
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>   Node: config
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>     Node: build
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>       Node: compiler
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>         Node: template_compiler Value: true
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>         Node: comp_name Value: cov-filesystem-capture-python-0
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>         Node: comp_translator Value: python
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>         Node: comp_lang Value: Non Compiled
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>         Node: comp_generic Value: python
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>         Node: file_include_pattern Value: ^.*\.py$
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>       Node: options
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>         Node: id Value: python-cov-filesystem-capture-python-0-.*
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>         Node: begin_command_line_config
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|>   Node: md5 Value: 4498fd410774a9faa0109aad2e182841
+2019-04-25T21:59:38.737749Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|> Configuration read from: /Users/bryongloden/Workspace/gruyere-code/idir/template-capture-config-files-config-0/coverity_config.xml
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|> Node: coverity
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>   Node: cit_version Value: 1
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>   Node: config
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>     Node: build
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>       Node: compiler
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>         Node: template_compiler Value: true
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>         Node: comp_name Value: cov-filesystem-capture-capture-config-files-0
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>         Node: comp_translator Value: capture-config-files
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>         Node: comp_lang Value: Non Compiled
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>         Node: comp_generic Value: capture_config_files
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>         Node: file_include_pattern Value: $capture-config-files$
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>       Node: options
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>         Node: id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-.*
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>         Node: begin_command_line_config
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|>   Node: md5 Value: b94e617f98adb465b84e44c2bb1187e2
+2019-04-25T21:59:38.737844Z|cov-build|8700|info|> 
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> [STATUS] Running filesystem capture search...
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> [STATUS] Emitting 23 files from filesystem capture
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> BEGIN source files (4) for template-python-config-0 (^.*\.py$ -> cov-filesystem-capture-python-0)
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/data.py
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/gruyere.py
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/gtl.py
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/sanitize.py
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> END source files for template-python-config-0 (^.*\.py$ -> cov-filesystem-capture-python-0)
+* Configuring Python Filesystem Capture
+Added template compiler configuration instance /Users/bryongloden/Workspace/gruyere-code/idir/emit/Bryons-MacBook-Pro.local/config/3e1f8549d2a258006d184c7d30fa377c/coverity_config.xml
+Configuration read from: /Users/bryongloden/Workspace/gruyere-code/idir/emit/Bryons-MacBook-Pro.local/config/3e1f8549d2a258006d184c7d30fa377c/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: include Value: /Users/bryongloden/Workspace/gruyere-code/idir/emit/Bryons-MacBook-Pro.local/config/3e1f8549d2a258006d184c7d30fa377c/python-config-0/coverity_config.xml
+Configuration read from: /Users/bryongloden/Workspace/gruyere-code/idir/emit/Bryons-MacBook-Pro.local/config/3e1f8549d2a258006d184c7d30fa377c/python-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: cov-filesystem-capture-python-0
+        Node: comp_translator Value: python
+        Node: comp_lang Value: Non Compiled
+        Node: comp_front_end Value: cov-internal-emit-misc
+        Node: comp_desc Value: Python Filesystem Capture
+        Node: comp_generic Value: python
+        Node: id Value: python-cov-filesystem-capture-python-0-3e1f8549d2a258006d184c7d30fa377c-0
+        Node: is_compiler Value: true
+        Node: is_linker Value: false
+      Node: options
+        Node: id Value: python-cov-filesystem-capture-python-0-3e1f8549d2a258006d184c7d30fa377c-0
+        Node: template_config_option_id Value: python-cov-filesystem-capture-python-0-.*
+        Node: prepend_arg Value: --language=python
+        Node: split
+          Node: options
+            Node: prepend_arg Value: -coverity_source=non_compiled
+        Node: expand
+          Node: options
+            Node: intern_split_response_file_fn Value: line_split
+        Node: begin_command_line_config
+  Node: md5 Value: cc720c78d9ce7271528fe971b3aa0a38
+COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "/Users/bryongloden/Workspace/gruyere-code/data.py" "/Users/bryongloden/Workspace/gruyere-code/gruyere.py" "/Users/bryongloden/Workspace/gruyere-code/gtl.py" "/Users/bryongloden/Workspace/gruyere-code/sanitize.py"
+[WARNING] During pre_translate, unrecognized option: --fs-capture-search
+[STATUS] Compiling 4 Non compiled source files.
+[STATUS] Compiling data.py, gruyere.py, gtl.py, sanitize.py
+/Applications/cov-analysis-macosx-2019.03/bin/cov-internal-emit-misc --dir=/Users/bryongloden/Workspace/gruyere-code/idir --language=python --fs-capture-search ./ data.py gruyere.py gtl.py sanitize.py 
+Command line with response file: /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-emit-misc @utf8@/Users/bryongloden/Workspace/gruyere-code/idir/tmp/cov-internal-emit-misc-689eb633e51057fb1cb2cffca0bd8475-0.cmd_args.txt
+Coverity Internal Misc Emit version 2019.03 on Darwin 17.7.0 x86_64
+Internal version numbers: 2c0f9c8cf4 p-pacific1-push-35439.872
+
+Processed source file with Python 2
+
+Processed source file with Python 2
+
+Processed source file with Python 2
+
+Processed source file with Python 2
+
+cov-internal-emit-misc took 0s
+
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> cov-translate exited with code 0
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> BEGIN source files (19) for template-capture-config-files-config-0 (<config files> -> cov-filesystem-capture-capture-config-files-0)
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/.project
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/.pydevproject
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/base.css
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/dump.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/editprofile.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/error.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/feed.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/home.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/login.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/manage.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/menubar.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/newaccount.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/newsnippet.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/showprofile.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/snippets.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/upload.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/resources/upload2.gtl
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/secret.txt
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> /Users/bryongloden/Workspace/gruyere-code/stored-data.txt
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> END source files for template-capture-config-files-config-0 (<config files> -> cov-filesystem-capture-capture-config-files-0)
+* Configuring Configuration Filesystem Capture
+Added template compiler configuration instance /Users/bryongloden/Workspace/gruyere-code/idir/emit/Bryons-MacBook-Pro.local/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+Configuration read from: /Users/bryongloden/Workspace/gruyere-code/idir/emit/Bryons-MacBook-Pro.local/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: include Value: /Users/bryongloden/Workspace/gruyere-code/idir/emit/Bryons-MacBook-Pro.local/config/86c0393db2dfc13f34bf36599b00f373/capture-config-files-config-0/coverity_config.xml
+Configuration read from: /Users/bryongloden/Workspace/gruyere-code/idir/emit/Bryons-MacBook-Pro.local/config/86c0393db2dfc13f34bf36599b00f373/capture-config-files-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: cov-filesystem-capture-capture-config-files-0
+        Node: comp_translator Value: capture-config-files
+        Node: comp_lang Value: Non Compiled
+        Node: comp_front_end Value: cov-internal-emit-misc
+        Node: comp_desc Value: Configuration Filesystem Capture
+        Node: comp_generic Value: capture_config_files
+        Node: id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-86c0393db2dfc13f34bf36599b00f373-0
+        Node: is_compiler Value: true
+        Node: is_linker Value: false
+      Node: options
+        Node: id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-86c0393db2dfc13f34bf36599b00f373-0
+        Node: template_config_option_id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-.*
+        Node: prepend_arg Value: --language=capture-config-files
+        Node: split
+          Node: options
+            Node: prepend_arg Value: -coverity_source=non_compiled
+        Node: expand
+          Node: options
+            Node: intern_split_response_file_fn Value: line_split
+        Node: begin_command_line_config
+  Node: md5 Value: ba960caa472abdc5ce929e6a7a0ea22d
+COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "/Users/bryongloden/Workspace/gruyere-code/.project" "/Users/bryongloden/Workspace/gruyere-code/.pydevproject" "/Users/bryongloden/Workspace/gruyere-code/resources/base.css" "/Users/bryongloden/Workspace/gruyere-code/resources/dump.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/editprofile.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/error.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/feed.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/home.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/login.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/manage.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/menubar.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/newaccount.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/newsnippet.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/showprofile.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/snippets.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/upload.gtl" "/Users/bryongloden/Workspace/gruyere-code/resources/upload2.gtl" "/Users/bryongloden/Workspace/gruyere-code/secret.txt" "/Users/bryongloden/Workspace/gruyere-code/stored-data.txt"
+[WARNING] During pre_translate, unrecognized option: --fs-capture-search
+[STATUS] Compiling 19 Non compiled source files.
+[STATUS] Compiling .project, .pydevproject, resources/base.css, resources/dump.gtl, resources/editprofile.gtl, resources/error.gtl, resources/feed.gtl, resources/home.gtl, resources/login.gtl, resources/manage.gtl, resources/menubar.gtl, resources/newaccount.gtl, resources/newsnippet.gtl, resources/showprofile.gtl, resources/snippets.gtl, resources/upload.gtl, resources/upload2.gtl, secret.txt, stored-data.txt
+/Applications/cov-analysis-macosx-2019.03/bin/cov-internal-emit-misc --dir=/Users/bryongloden/Workspace/gruyere-code/idir --language=capture-config-files --fs-capture-search ./ .project .pydevproject resources/base.css resources/dump.gtl resources/editprofile.gtl resources/error.gtl resources/feed.gtl resources/home.gtl resources/login.gtl resources/manage.gtl resources/menubar.gtl resources/newaccount.gtl resources/newsnippet.gtl resources/showprofile.gtl resources/snippets.gtl resources/upload.gtl resources/upload2.gtl secret.txt stored-data.txt 
+Command line with response file: /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-emit-misc @utf8@/Users/bryongloden/Workspace/gruyere-code/idir/tmp/cov-internal-emit-misc-62a0e02a5aec62394ac9c70df34b6158-0.cmd_args.txt
+Coverity Internal Misc Emit version 2019.03 on Darwin 17.7.0 x86_64
+Internal version numbers: 2c0f9c8cf4 p-pacific1-push-35439.872
+
+Detected ISO-8859-1 encoding for .project
+Detected ISO-8859-1 encoding for .pydevproject
+Detected ISO-8859-1 encoding for resources/base.css
+Detected ISO-8859-1 encoding for resources/dump.gtl
+Detected ISO-8859-1 encoding for resources/editprofile.gtl
+Detected ISO-8859-1 encoding for resources/error.gtl
+Detected ISO-8859-1 encoding for resources/feed.gtl
+Detected ISO-8859-1 encoding for resources/home.gtl
+Detected ISO-8859-1 encoding for resources/login.gtl
+Detected ISO-8859-1 encoding for resources/manage.gtl
+Detected ISO-8859-1 encoding for resources/menubar.gtl
+Detected ISO-8859-1 encoding for resources/newaccount.gtl
+Detected ISO-8859-1 encoding for resources/newsnippet.gtl
+Detected ISO-8859-1 encoding for resources/showprofile.gtl
+Detected ISO-8859-1 encoding for resources/snippets.gtl
+Detected ISO-8859-1 encoding for resources/upload.gtl
+Detected ISO-8859-1 encoding for resources/upload2.gtl
+Detected ISO-8859-2 encoding for secret.txt
+Detected ISO-8859-1 encoding for stored-data.txt
+cov-internal-emit-misc took 1s
+
+2019-04-25T21:59:38.737982Z|cov-build|8700|info|> cov-translate exited with code 0
+2019-04-25T21:59:40.049660Z|cov-build|8700|info|> Invoking cov-security-da with commands: /Applications/cov-analysis-macosx-2019.03/bin/cov-security-da --dir /Users/bryongloden/Workspace/gruyere-code/idir
+2019-04-25T21:59:40.121119Z|cov-build|8700|info|> 
+2019-04-25T21:59:40.121119Z|cov-build|8700|info|> Build time (cov-build overall): 00:00:01.435717
+2019-04-25T21:59:40.121119Z|cov-build|8700|info|> 
+2019-04-25T21:59:40.121119Z|cov-build|8700|info|> 
+2019-04-25T21:59:40.124278Z|cov-build|8700|info|> Emitted 4 Python compilation units (100%) successfully
+2019-04-25T21:59:40.124278Z|cov-build|8700|info|> 
+2019-04-25T21:59:40.124278Z|cov-build|8700|info|> 4 Python compilation units (100%) are ready for analysis
+2019-04-25T21:59:40.124278Z|cov-build|8700|info|> The cov-build utility completed successfully.

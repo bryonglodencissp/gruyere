@@ -1,0 +1,8 @@
+cov-analyze --dir idir --webapp-security --all --distrust-all --trial --webapp-security-trial 
+Analysis summary report:
+------------------------
+Files analyzed           : 4
+Functions analyzed       : 4
+Paths analyzed           : 4
+Time taken by analysis   : 00:00:04
+Defect occurrences found : 0

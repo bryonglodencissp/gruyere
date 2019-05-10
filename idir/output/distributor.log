@@ -1,0 +1,177 @@
+1556229643.884: DM started: dm_pid=8765
+1556229643.884: DM command line: /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-dm --AM-port 57500 --log-file /Users/bryongloden/Workspace/gruyere-code/idir/output/distributor.log -j 8 --AW-timeout 36000 /Applications/cov-analysis-macosx-2019.03/bin/cov-analyze --worker --message-size-limit 104857600 --worker-timings-file /Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log
+1556229643.884: Connecting to AM at 127.0.0.1:57500
+1556229643.885: Connected to AM: (local) 127.0.0.1:57501 - 127.0.0.1:57500 (remote)
+1556229643.885: Listening for DWs at 127.0.0.1:57502
+1556229643.885: Starting DW 1 with command line: /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-dw --DM-port 57502 --DW-id 1
+1556229643.885: DW 1 started: dw_pid=8767
+1556229643.885: Starting DW 2 with command line: /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-dw --DM-port 57502 --DW-id 2
+1556229643.886: DW 2 started: dw_pid=8768
+1556229643.886: Starting DW 3 with command line: /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-dw --DM-port 57502 --DW-id 3
+1556229643.886: DW 3 started: dw_pid=8769
+1556229643.886: Starting DW 4 with command line: /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-dw --DM-port 57502 --DW-id 4
+1556229643.886: DW 4 started: dw_pid=8770
+1556229643.886: Starting DW 5 with command line: /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-dw --DM-port 57502 --DW-id 5
+1556229643.886: DW 5 started: dw_pid=8771
+1556229643.886: Starting DW 6 with command line: /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-dw --DM-port 57502 --DW-id 6
+1556229643.886: DW 6 started: dw_pid=8772
+1556229643.886: Starting DW 7 with command line: /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-dw --DM-port 57502 --DW-id 7
+1556229643.887: DW 7 started: dw_pid=8773
+1556229643.887: Starting DW 8 with command line: /Applications/cov-analysis-macosx-2019.03/bin/cov-internal-dw --DM-port 57502 --DW-id 8
+1556229643.887: DW 8 started: dw_pid=8774
+1556229643.893: DW 1 log: 1556229643.894: Connecting to DM on 127.0.0.1:57502
+1556229643.893: DW 2 log: 1556229643.894: Connecting to DM on 127.0.0.1:57502
+1556229643.893: DW 5 log: 1556229643.894: Connecting to DM on 127.0.0.1:57502
+1556229643.895: DW 3 log: 1556229643.894: Connecting to DM on 127.0.0.1:57502
+1556229643.895: DW 4 log: 1556229643.895: Connecting to DM on 127.0.0.1:57502
+1556229643.895: DW 6 log: 1556229643.895: Connecting to DM on 127.0.0.1:57502
+1556229643.895: Received a connection from a DW: 127.0.0.1:57503
+1556229643.896: DW 2 log: 1556229643.895: Connected to the DM: (local) 127.0.0.1:57503 - 127.0.0.1:57502 (remote)
+1556229643.896: DW 2 log: 1556229643.895: Sending DWDM_INIT: dw_id=2, benchmark=0
+1556229643.896: Received a connection from a DW: 127.0.0.1:57504
+1556229643.896: DW 1 log: 1556229643.895: Connected to the DM: (local) 127.0.0.1:57504 - 127.0.0.1:57502 (remote)
+1556229643.896: DW 3 log: 1556229643.895: Connected to the DM: (local) 127.0.0.1:57506 - 127.0.0.1:57502 (remote)
+1556229643.896: Received a connection from a DW: 127.0.0.1:57505
+1556229643.896: DW 1 log: 1556229643.895: Sending DWDM_INIT: dw_id=1, benchmark=0
+1556229643.896: DW 3 log: 1556229643.895: Sending DWDM_INIT: dw_id=3, benchmark=0
+1556229643.896: DW 4 log: 1556229643.897: Connected to the DM: (local) 127.0.0.1:57507 - 127.0.0.1:57502 (remote)
+1556229643.896: DW 4 log: 1556229643.897: Sending DWDM_INIT: dw_id=4, benchmark=0
+1556229643.896: DW 5 log: 1556229643.895: Connected to the DM: (local) 127.0.0.1:57505 - 127.0.0.1:57502 (remote)
+1556229643.896: DW 5 log: 1556229643.895: Sending DWDM_INIT: dw_id=5, benchmark=0
+1556229643.896: Received a connection from a DW: 127.0.0.1:57506
+1556229643.896: Received DWDM_INIT: dw_id=2, benchmark=0
+1556229643.896: Sending DMDW_INIT to DW 2: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.896: Received a connection from a DW: 127.0.0.1:57507
+1556229643.896: Received DWDM_INIT: dw_id=1, benchmark=0
+1556229643.896: Sending DMDW_INIT to DW 1: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.896: Received DWDM_INIT: dw_id=5, benchmark=0
+1556229643.896: Sending DMDW_INIT to DW 5: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.896: DW 2 log: 1556229643.896: Received DMDW_INIT: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.896: DW 2 log: 1556229643.896: Started listening for AW at 127.0.0.1:57509
+1556229643.896: DW 6 log: 1556229643.896: Connected to the DM: (local) 127.0.0.1:57508 - 127.0.0.1:57502 (remote)
+1556229643.896: DW 6 log: 1556229643.896: Sending DWDM_INIT: dw_id=6, benchmark=0
+1556229643.896: Received a connection from a DW: 127.0.0.1:57508
+1556229643.896: Received DWDM_INIT: dw_id=3, benchmark=0
+1556229643.896: Sending DMDW_INIT to DW 3: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.896: DW 1 log: 1556229643.896: Received DMDW_INIT: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.896: DW 2 log: 1556229643.896: Starting AW with command line (COVERITY_DW_PORT=57509): /Applications/cov-analysis-macosx-2019.03/bin/cov-analyze --worker --message-size-limit 104857600 --worker-timings-file /Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log
+1556229643.896: DW 7 log: 1556229643.897: Connecting to DM on 127.0.0.1:57502
+1556229643.896: Received DWDM_INIT: dw_id=4, benchmark=0
+1556229643.896: Sending DMDW_INIT to DW 4: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.897: DW 1 log: 1556229643.896: Started listening for AW at 127.0.0.1:57510
+1556229643.897: DW 1 log: 1556229643.896: Starting AW with command line (COVERITY_DW_PORT=57510): /Applications/cov-analysis-macosx-2019.03/bin/cov-analyze --worker --message-size-limit 104857600 --worker-timings-file /Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log
+1556229643.897: DW 2 log: 1556229643.896: AW started: aw_pid=8783
+1556229643.897: DW 5 log: 1556229643.896: Received DMDW_INIT: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.897: DW 5 log: 1556229643.896: Started listening for AW at 127.0.0.1:57511
+1556229643.897: DW 5 log: 1556229643.896: Starting AW with command line (COVERITY_DW_PORT=57511): /Applications/cov-analysis-macosx-2019.03/bin/cov-analyze --worker --message-size-limit 104857600 --worker-timings-file /Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log
+1556229643.897: DW 3 log: 1556229643.896: Received DMDW_INIT: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.897: DW 3 log: 1556229643.896: Started listening for AW at 127.0.0.1:57512
+1556229643.897: Received DWDM_INIT: dw_id=6, benchmark=0
+1556229643.897: Sending DMDW_INIT to DW 6: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.897: DW 1 log: 1556229643.896: AW started: aw_pid=8784
+1556229643.897: DW 3 log: 1556229643.896: Starting AW with command line (COVERITY_DW_PORT=57512): /Applications/cov-analysis-macosx-2019.03/bin/cov-analyze --worker --message-size-limit 104857600 --worker-timings-file /Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log
+1556229643.897: DW 4 log: 1556229643.898: Received DMDW_INIT: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.897: DW 4 log: 1556229643.898: Started listening for AW at 127.0.0.1:57513
+1556229643.897: DW 4 log: 1556229643.898: Starting AW with command line (COVERITY_DW_PORT=57513): /Applications/cov-analysis-macosx-2019.03/bin/cov-analyze --worker --message-size-limit 104857600 --worker-timings-file /Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log
+1556229643.897: DW 6 log: 1556229643.897: Received DMDW_INIT: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.897: DW 8 log: 1556229643.897: Connecting to DM on 127.0.0.1:57502
+1556229643.897: DW 6 log: 1556229643.897: Started listening for AW at 127.0.0.1:57514
+1556229643.897: DW 5 log: 1556229643.897: AW started: aw_pid=8785
+1556229643.897: DW 6 log: 1556229643.897: Starting AW with command line (COVERITY_DW_PORT=57514): /Applications/cov-analysis-macosx-2019.03/bin/cov-analyze --worker --message-size-limit 104857600 --worker-timings-file /Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log
+1556229643.897: DW 3 log: 1556229643.897: AW started: aw_pid=8786
+1556229643.897: Received a connection from a DW: 127.0.0.1:57515
+1556229643.897: DW 4 log: 1556229643.899: AW started: aw_pid=8787
+1556229643.898: DW 7 log: 1556229643.899: Connected to the DM: (local) 127.0.0.1:57515 - 127.0.0.1:57502 (remote)
+1556229643.898: DW 7 log: 1556229643.899: Sending DWDM_INIT: dw_id=7, benchmark=0
+1556229643.898: Received DWDM_INIT: dw_id=7, benchmark=0
+1556229643.898: Sending DMDW_INIT to DW 7: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.898: DW 6 log: 1556229643.898: AW started: aw_pid=8788
+1556229643.898: DW 7 log: 1556229643.899: Received DMDW_INIT: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.898: DW 7 log: 1556229643.899: Started listening for AW at 127.0.0.1:57517
+1556229643.898: Received a connection from a DW: 127.0.0.1:57516
+1556229643.898: DW 7 log: 1556229643.900: Starting AW with command line (COVERITY_DW_PORT=57517): /Applications/cov-analysis-macosx-2019.03/bin/cov-analyze --worker --message-size-limit 104857600 --worker-timings-file /Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log
+1556229643.898: DW 8 log: 1556229643.898: Connected to the DM: (local) 127.0.0.1:57516 - 127.0.0.1:57502 (remote)
+1556229643.898: DW 8 log: 1556229643.898: Sending DWDM_INIT: dw_id=8, benchmark=0
+1556229643.899: DW 7 log: 1556229643.900: AW started: aw_pid=8789
+1556229643.899: Received DWDM_INIT: dw_id=8, benchmark=0
+1556229643.899: Stopping to listen for new DWs
+1556229643.899: Sending DMDW_INIT to DW 8: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.899: DW 8 log: 1556229643.899: Received DMDW_INIT: aw_command_line=["/Applications/cov-analysis-macosx-2019.03/bin/cov-analyze","--worker","--message-size-limit","104857600","--worker-timings-file","/Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1556229643.899: DW 8 log: 1556229643.899: Started listening for AW at 127.0.0.1:57518
+1556229643.899: DW 8 log: 1556229643.899: Starting AW with command line (COVERITY_DW_PORT=57518): /Applications/cov-analysis-macosx-2019.03/bin/cov-analyze --worker --message-size-limit 104857600 --worker-timings-file /Users/bryongloden/Workspace/gruyere-code/idir/output/worker-timings.log
+1556229643.900: DW 8 log: 1556229643.900: AW started: aw_pid=8790
+1556229643.939: DW 1 log: 1556229643.938: DW 1 received connection from AW: (local) 127.0.0.1:57510 - 127.0.0.1:57519 (remote)
+1556229643.945: DW 2 log: 1556229643.945: DW 2 received connection from AW: (local) 127.0.0.1:57509 - 127.0.0.1:57520 (remote)
+1556229643.949: DW 6 log: 1556229643.949: DW 6 received connection from AW: (local) 127.0.0.1:57514 - 127.0.0.1:57522 (remote)
+1556229643.949: DW 3 log: 1556229643.949: DW 3 received connection from AW: (local) 127.0.0.1:57512 - 127.0.0.1:57521 (remote)
+1556229643.949: DW 5 log: 1556229643.949: DW 5 received connection from AW: (local) 127.0.0.1:57511 - 127.0.0.1:57523 (remote)
+1556229643.949: DW 4 log: 1556229643.951: DW 4 received connection from AW: (local) 127.0.0.1:57513 - 127.0.0.1:57524 (remote)
+1556229643.950: DW 7 log: 1556229643.951: DW 7 received connection from AW: (local) 127.0.0.1:57517 - 127.0.0.1:57525 (remote)
+1556229643.952: DW 8 log: 1556229643.952: DW 8 received connection from AW: (local) 127.0.0.1:57518 - 127.0.0.1:57526 (remote)
+1556229646.604: AM closed the connection, DM shutting down
+1556229646.604: Disconnecting DW 2
+1556229646.604: Disconnecting DW 1
+1556229646.604: Disconnecting DW 5
+1556229646.604: Disconnecting DW 3
+1556229646.604: Disconnecting DW 4
+1556229646.604: Disconnecting DW 6
+1556229646.604: Disconnecting DW 7
+1556229646.604: Disconnecting DW 8
+1556229646.604: DW 1 log: 1556229646.605: DW 1: the DM closed the connection, DW shutting down
+1556229646.604: DW 1 log: 1556229646.605: DW 1 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1556229646.604: DW 1 log: 1556229646.605: Disconnecting AW
+1556229646.604: DW 2 log: 1556229646.605: DW 2: the DM closed the connection, DW shutting down
+1556229646.604: DW 2 log: 1556229646.605: DW 2 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1556229646.604: DW 2 log: 1556229646.605: Disconnecting AW
+1556229646.604: DW 3 log: 1556229646.605: DW 3: the DM closed the connection, DW shutting down
+1556229646.604: DW 3 log: 1556229646.605: DW 3 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1556229646.604: DW 3 log: 1556229646.605: Disconnecting AW
+1556229646.604: DW 4 log: 1556229646.606: DW 4: the DM closed the connection, DW shutting down
+1556229646.604: DW 4 log: 1556229646.606: DW 4 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1556229646.604: DW 4 log: 1556229646.606: Disconnecting AW
+1556229646.604: DW 5 log: 1556229646.605: DW 5: the DM closed the connection, DW shutting down
+1556229646.604: DW 5 log: 1556229646.605: DW 5 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1556229646.604: DW 5 log: 1556229646.605: Disconnecting AW
+1556229646.604: DW 6 log: 1556229646.605: DW 6: the DM closed the connection, DW shutting down
+1556229646.604: DW 6 log: 1556229646.605: DW 6 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1556229646.604: DW 6 log: 1556229646.605: Disconnecting AW
+1556229646.606: DW 7 log: 1556229646.606: DW 7: the DM closed the connection, DW shutting down
+1556229646.606: DW 7 log: 1556229646.606: DW 7 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1556229646.606: DW 7 log: 1556229646.606: Disconnecting AW
+1556229646.606: DW 8 log: 1556229646.605: DW 8: the DM closed the connection, DW shutting down
+1556229646.606: DW 8 log: 1556229646.605: DW 8 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1556229646.606: DW 8 log: 1556229646.605: Disconnecting AW
+1556229646.616: DW 1 log: 1556229646.614: AW exited with code 0
+1556229646.616: DW 1 log: AW peak mem bytes: 0
+1556229646.616: DW 3 log: 1556229646.615: AW exited with code 0
+1556229646.616: DW 3 log: AW peak mem bytes: 0
+1556229646.616: DW 5 log: 1556229646.615: AW exited with code 0
+1556229646.616: DW 5 log: AW peak mem bytes: 0
+1556229646.616: DW 6 log: 1556229646.615: AW exited with code 0
+1556229646.616: DW 6 log: AW peak mem bytes: 0
+1556229646.616: DW 2 log: 1556229646.616: AW exited with code 0
+1556229646.616: DW 2 log: AW peak mem bytes: 0
+1556229646.616: DW 4 log: 1556229646.617: AW exited with code 0
+1556229646.616: DW 4 log: AW peak mem bytes: 0
+1556229646.616: DW 8 log: 1556229646.616: AW exited with code 0
+1556229646.616: DW 8 log: AW peak mem bytes: 0
+1556229646.616: DW 7 log: 1556229646.617: AW exited with code 0
+1556229646.616: DW 7 log: AW peak mem bytes: 0
+1556229646.616: DW 1 exited with code 0
+1556229646.616: DW 3 exited with code 0
+1556229646.616: DW 6 exited with code 0
+1556229646.616: DW 5 exited with code 0
+1556229646.616: DW 4 exited with code 0
+1556229646.616: DW 8 exited with code 0
+1556229646.616: DW 2 exited with code 0
+1556229646.617: DW 7 exited with code 0
+1556229646.617: dm-summary: elapsed_time_ms=2736, am_to_dm_wus=0, dm_to_am_wurs=0
+1556229646.617: dw-summary: dw_id=1, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1556229646.617: dw-summary: dw_id=2, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1556229646.617: dw-summary: dw_id=3, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1556229646.617: dw-summary: dw_id=4, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1556229646.617: dw-summary: dw_id=5, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1556229646.617: dw-summary: dw_id=6, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1556229646.617: dw-summary: dw_id=7, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1556229646.617: dw-summary: dw_id=8, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1556229646.617: DM exiting with code 0

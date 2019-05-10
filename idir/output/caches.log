@@ -1,0 +1,7 @@
+builtinModels cache miss rate: 4 / 60 (6.67%)
+derivedModels cache miss rate: 0 / 28 (0.00%)
+TUInfos cache miss rate: 23 / 94 (24.47%)
+Redirected file descriptors cache miss rate: 4 / 207 (1.93%)
+GetCallees cache miss rate: 4 / 20 (20.00%)
+GetCallers cache miss rate: 4 / 52 (7.69%)
+GetDynamicCallees cache miss rate: 4 / 12 (33.33%)

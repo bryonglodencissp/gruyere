@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>2</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>cov-build -c idir/conf.xml --dir idir --no-command -fs-capture-search ./</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>Bryons-MacBook-Pro.local</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>macosx</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Darwin 17.7.0 x86_64</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>2019.03 (build 2c0f9c8cf4 p-pacific1-push-35439.872)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>bryongloden</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>/Users/bryongloden/Workspace/gruyere-code</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>/Users/bryongloden/Workspace/gruyere-code/idir/conf.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>/Users/bryongloden/Workspace/gruyere-code/idir</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>/Users/bryongloden/Workspace/gruyere-code/idir/output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>/Users/bryongloden/Workspace/gruyere-code/idir/emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>4</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value></value>
+    </metric>
+</metrics>
+</coverity>

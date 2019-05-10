@@ -1,0 +1,243 @@
+{
+  "cov-analyze" : {
+    "command-line-options" : {
+      "args" : [
+        "dir",
+        "webapp-security",
+        "all",
+        "distrust-all",
+        "trial",
+        "webapp-security-trial",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_BUDA_CHECKER:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_STAT_PASS:enable-builtin-checkers",
+        "OVERLAPPING_COPY_INTERNAL:xx_OVERLAPPING_COPY",
+        "PW_INFRASTRUCTURE:xx_report_default_parse_warnings",
+        "PW_INFRASTRUCTURE:xx_report_explicit_parse_warnings",
+        "PW_INFRASTRUCTURE:xx_report_parse_errors",
+        "UNCAUGHT_EXCEPT_INTERNAL:xx_report_uncaught_except"
+      ]
+    },
+    "time" : 4,
+    "line-counts" : {
+      "C/C++" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "C#" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Fortran" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Java" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "JavaScript" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Objective-C/C++" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "PHP" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Python 2" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 1341
+      },
+      "Python 3" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Ruby" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Scala" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Swift" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Text" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "TypeScript" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Visual Basic" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      }
+    },
+    "file-statistics-by-extension" : {
+      "<redacted>" : {
+        "files" : 2,
+        "total-bytes" : 816
+      },
+      "css" : {
+        "files" : 1,
+        "total-bytes" : 1647
+      },
+      "gtl" : {
+        "files" : 14,
+        "total-bytes" : 17765
+      },
+      "py" : {
+        "files" : 4,
+        "total-bytes" : 44426
+      },
+      "txt" : {
+        "files" : 2,
+        "total-bytes" : 1156
+      }
+    },
+    "ident" : "2019.03 (build 2c0f9c8cf4 p-pacific1-push-35439.872)",
+    "platform" : "Darwin 17.7.0 x86_64",
+    "short-platform" : "macosx",
+    "extver" : "2019.03",
+    "intver" : "2c0f9c8cf4 p-pacific1-push-35439.872",
+    "aw-peak-mem-bytes" : 0,
+    "am+aw-peak-mem-bytes" : 0,
+    "bytecode-functions" : 0,
+    "concurrency" : true,
+    "cxx" : true,
+    "enable-parse-warnings" : true,
+    "failures" : 0,
+    "files-analyzed" : 4,
+    "force" : false,
+    "function-metrics-count" : 4,
+    "functions-analyzed" : 4,
+    "incremental-hits" : 32,
+    "incremental-misses" : 0,
+    "dyncg-sites-resolved" : 0,
+    "dyncg-sites-total" : 0,
+    "max-mem" : 2048,
+    "memout-count" : 0,
+    "pathout-count" : 0,
+    "paths" : 5000,
+    "paths-analyzed" : 4,
+    "peak-mem-bytes" : 0,
+    "security" : true,
+    "tus-count" : 23,
+    "string-graph-nodes" : 0,
+    "web-app-entry-points" : 0,
+    "web-app-views-unused" : 0,
+    "ta.code_age_thresholds" : "0, 0",
+    "enabled-checkers" : "ALLOC_FREE_MISMATCH ANGULAR_EXPRESSION_INJECTION ARRAY_VS_SINGLETON ASPNET_MVC_VERSION_HEADER ASSERT_SIDE_EFFECT ATOMICITY ATTRIBUTE_NAME_CONFLICT BAD_ALLOC_ARITHMETIC BAD_ALLOC_STRLEN BAD_CERT_VERIFICATION BAD_CHECK_OF_WAIT_COND BAD_COMPARE BAD_EQ BAD_EQ_TYPES BAD_FREE BAD_LOCK_OBJECT BAD_OVERRIDE BAD_SHIFT BAD_SIZEOF BLACKLIST_FOR_AUTHN BUFFER_SIZE CALL_SUPER CHAR_IO CHECKED_RETURN CHROOT COM.BAD_FREE COM.BSTR.CONV CONFIG.ASPNET_VERSION_HEADER CONFIG.ASP_VIEWSTATE_MAC CONFIG.ATS_INSECURE CONFIG.CONNECTION_STRING_PASSWORD CONFIG.COOKIES_MISSING_HTTPONLY CONFIG.DEAD_AUTHORIZATION_RULE CONFIG.DUPLICATE_SERVLET_DEFINITION CONFIG.DWR_DEBUG_MODE CONFIG.DYNAMIC_DATA_HTML_COMMENT CONFIG.ENABLED_DEBUG_MODE CONFIG.ENABLED_TRACE_MODE CONFIG.HANA_XS_PREVENT_XSRF_DISABLED CONFIG.HTTP_VERB_TAMPERING CONFIG.JAVAEE_MISSING_HTTPONLY CONFIG.JSONWEBTOKEN_NON_EXPIRING_TOKEN CONFIG.MISSING_CUSTOM_ERROR_PAGE CONFIG.MISSING_GLOBAL_EXCEPTION_HANDLER CONFIG.MISSING_JSF2_SECURITY_CONSTRAINT CONFIG.SEQUELIZE_ENABLED_LOGGING CONFIG.SEQUELIZE_INSECURE_CONNECTION CONFIG.SOCKETIO_MAXHTTPBUFFERSIZE_SET_TOO_LARGE CONFIG.SOCKETIO_ORIGINS_ACCEPT_ALL CONFIG.SPRING_SECURITY_DEBUG_MODE CONFIG.SPRING_SECURITY_DISABLE_AUTH_TAGS CONFIG.SPRING_SECURITY_HARDCODED_CREDENTIALS CONFIG.SPRING_SECURITY_REMEMBER_ME_HARDCODED_KEY CONFIG.SPRING_SECURITY_SESSION_FIXATION CONFIG.STRUTS2_CONFIG_BROWSER_PLUGIN CONFIG.STRUTS2_DYNAMIC_METHOD_INVOCATION CONFIG.STRUTS2_ENABLED_DEV_MODE CONFIG.SYMFONY_CSRF_PROTECTION_DISABLED CONFIG.UNSAFE_SESSION_TIMEOUT CONSTANT_EXPRESSION_RESULT COOKIE_INJECTION COPY_PASTE_ERROR CSRF CSS_INJECTION CTOR_DTOR_LEAK CUSTOM_KEYBOARD_DATA_LEAK DC.DANGEROUS DC.DEADLOCK DC.PREDICTABLE_KEY_PASSWORD DC.STREAM_BUFFER DC.WEAK_CRYPTO DEADCODE DELETE_ARRAY DELETE_VOID DIVIDE_BY_ZERO DOM_XSS DYNAMIC_OBJECT_ATTRIBUTES EL_INJECTION EVALUATION_ORDER EXPLICIT_THIS_EXPECTED FB.* FORWARD_NULL GUARDED_BY_VIOLATION HARDCODED_CREDENTIALS HEADER_INJECTION HIBERNATE_BAD_HASHCODE IDENTICAL_BRANCHES IDENTIFIER_TYPO INCOMPATIBLE_CAST INFINITE_LOOP INSECURE_COMMUNICATION INSECURE_MULTIPEER_CONNECTION INSECURE_RANDOM INSECURE_SALT INSUFFICIENT_LOGGING INVALIDATE_ITERATOR JAVA_CODE_INJECTION JCR_INJECTION JSP_DYNAMIC_INCLUDE JSP_SQL_INJECTION LDAP_INJECTION LOCALSTORAGE_MANIPULATION LOCK LOCK_EVASION LOCK_INVERSION MISMATCHED_ITERATOR MISSING_AUTHZ MISSING_BREAK MISSING_COMMA MISSING_IFRAME_SANDBOX MISSING_LOCK MISSING_MOVE_ASSIGNMENT MISSING_RESTORE MISSING_RETURN MISSING_THROW NEGATIVE_RETURNS NESTING_INDENT_MISMATCH NON_STATIC_GUARDING_STATIC NOSQL_QUERY_INJECTION NO_EFFECT NULL_RETURNS OGNL_INJECTION OPEN_ARGS OPEN_REDIRECT ORDER_REVERSAL ORM_LOAD_NULL_CHECK ORM_UNNECESSARY_GET OS_CMD_INJECTION OVERFLOW_BEFORE_WIDEN OVERLAPPING_COPY OVERRUN PARSE_ERROR PASS_BY_VALUE PATH_MANIPULATION PREDICTABLE_RANDOM_SEED PRINTF_ARGS PROPERTY_MIXUP PW.* RAILS_DEFAULT_ROUTES RAILS_DEVISE_CONFIG RAILS_MISSING_FILTER_ACTION READLINK REGEX_CONFUSION REGEX_INJECTION REGEX_MISSING_ANCHOR RESOURCE_LEAK RETURN_LOCAL REVERSE_INULL REVERSE_NEGATIVE RISKY_CRYPTO RUBY_VULNERABLE_LIBRARY SCRIPT_CODE_INJECTION SECURE_TEMP SENSITIVE_DATA_LEAK SERVLET_ATOMICITY SESSIONSTORAGE_MANIPULATION SESSION_FIXATION SESSION_MANIPULATION SIGN_EXTENSION SINGLETON_RACE SIZEOF_MISMATCH SLEEP SQLI STACK_USE STRAY_SEMICOLON STREAM_FORMAT_STATE STRING_NULL STRING_OVERFLOW STRING_SIZE SWAPPED_ARGUMENTS SYMFONY_EL_INJECTION TAINTED_ENVIRONMENT_WITH_EXECUTION TAINTED_SCALAR TAINTED_STRING TAINT_ASSERT TEMPLATE_INJECTION TOCTOU TRUST_BOUNDARY_VIOLATION UNCAUGHT_EXCEPT UNCHECKED_ORIGIN UNENCRYPTED_SENSITIVE_DATA UNEXPECTED_CONTROL_FLOW UNINIT UNINIT_CTOR UNINTENDED_GLOBAL UNINTENDED_INTEGER_DIVISION UNKNOWN_LANGUAGE_INJECTION UNLOGGED_SECURITY_EXCEPTION UNREACHABLE UNRESTRICTED_DISPATCH UNRESTRICTED_MESSAGE_TARGET UNSAFE_BASIC_AUTH UNSAFE_DESERIALIZATION UNSAFE_JNI UNSAFE_NAMED_QUERY UNSAFE_REFLECTION UNSAFE_SESSION_SETTING UNSAFE_XML_PARSE_CONFIG UNUSED_VALUE URL_MANIPULATION USELESS_CALL USE_AFTER_FREE VARARGS VIRTUAL_DTOR VOLATILE_ATOMICITY WEAK_BIOMETRIC_AUTH WEAK_GUARD WEAK_PASSWORD_HASH WRAPPER_ESCAPE WRONG_METHOD XML_EXTERNAL_ENTITY XPATH_INJECTION XSS",
+    "total-new-defect-count" : 0,
+    "total-input-files" : -1,
+    "matching-input-files" : -1
+  },
+  "cov-build" : {
+    "build-successes" : 4,
+    "builds-with-recoverable-errors" : 0,
+    "build-failures" : 0,
+    "dotnet-webapps-detected" : 0,
+    "dotnet-webapp-successes" : 0,
+    "dotnet-webapp-compilation-secs" : 0
+  }
+}
