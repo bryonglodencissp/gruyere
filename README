@@ -1,3 +1,8 @@
+<a href="https://scan.coverity.com/projects/bryongloden-gruyere">
+  <img alt="Coverity Scan Build Status"
+       src="https://scan.coverity.com/projects/18360/badge.svg"/>
+</a>
+
 Gruyere - a web application with holes.
 
 Copyright 2017 Google Inc. All Rights Reserved.
